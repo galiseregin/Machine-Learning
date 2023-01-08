@@ -1,7 +1,7 @@
 import numpy as np
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : remove_duplicative.
 Describe function : 
     This function remove duplicate rows from data frame.
@@ -17,7 +17,7 @@ def remove_duplicative(df, col_name=None):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : remove_corrupt_rows.
 Describe function : 
     This function removes lines from dataframe that has at least one missing parameter.
@@ -31,7 +31,7 @@ def remove_corrupt_rows(df):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : outlier_detection_iqr.
 Describe function : 
     This function removes lines that it's data has numeric parameters and it's values are outliers.
