@@ -6,7 +6,7 @@ from MachineLearningFunctions import split_to_train_and_test, get_data_ready, ch
     transfer_str_to_numeric_vals
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : __main__.
 Describe function : 
     This function is the main function of the project.
