@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :Gali Seregin.
 Function Name : get_frequent_elements.
 Describe function : 
     This function gets data frame and column name and returns it as a series object.
@@ -18,7 +18,7 @@ def get_frequent_elements(df, col_name):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names : Gali Seregin.
 Function Name : one_dim_plot.
 Describe function : 
     This function gets a series, plot type and axis 0/1 and creates a plot.
@@ -32,7 +32,7 @@ def one_dim_plot(sr, plot_type, axis):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names : Gali Seregin.
 Function Name : two_dim_plot.
 Describe function : 
     This function gets data frame and creates a scatter plot.
