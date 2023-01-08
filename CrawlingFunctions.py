@@ -6,7 +6,7 @@ from colorama import Fore
 import numpy as np
 
 """
-Students Names : Ofir Bittan and Gali Seregin
+Students Names : Gali Seregin
 Function Name : Global parameters.
 Describe function : 
     This parameters are arrays which we are going to fill with data by crawling.
@@ -43,7 +43,7 @@ count_good_words = []
 count_bad_words = []
 count_total = []
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names : Gali Seregin.
 Function Name : create_soup_obj.
 Describe function : 
     This function gets url and creates sup object.
@@ -62,7 +62,7 @@ def create_soup_obj(url):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : all_hotels_parse.
 Describe function : 
     This function gets number of hotel pages that the user inputs.
@@ -103,7 +103,7 @@ def all_hotels_parse(num_of_hotel_pages, soup_obj, tripadvisor_url_short):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : calculate_words_good.
 Describe function : 
     This function gets str of crawling from web and counts the number of 5 good connotation words we peaked
@@ -121,7 +121,7 @@ def calculate_words_good(str_words_from_comments):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : calculate_words_bad.
 Describe function : 
     This function gets str of crawling from web and counts the number of 5 bad connotation words we peaked
@@ -139,7 +139,7 @@ def calculate_words_bad(str_words_from_comments):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : calculate_words_good_and_bad.
 Describe function : 
     This function gets str of crawling from web and counts the number of 5 bad and good connotation words we peaked
@@ -162,7 +162,7 @@ def calculate_words_good_and_bad(str_words_from_comments):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : specific_hotel_parse.
 Describe function : 
     This function is going through a url array, creates soup object for every url and crawls it.
@@ -246,7 +246,7 @@ def specific_hotel_parse():
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names : Gali Seregin.
 Function Name : add_to_arr_1.
 Describe function : 
     This function gets arr to add variables to, string from crawling, string from web page.
@@ -265,7 +265,7 @@ def add_to_arr_1(arr_name, search_str, str_facilities):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names : Gali Seregin.
 Function Name : add_to_arr_2.
 Describe function : 
     This function gets arr to add variables to and string from crawling.
@@ -288,7 +288,7 @@ def add_to_arr_2(arr_name, find_code):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : find_a_number_in_string.
 Describe function : 
     This function gets a string and extracts floating numbers from it.
@@ -303,7 +303,7 @@ def find_a_number_in_string(s):
 
 
 """
-Students Names : Ofir Bittan and Gali Seregin.
+Students Names :  Gali Seregin.
 Function Name : create_df.
 Describe function : 
     This function creates and returns data frame from the scrawling we did.
